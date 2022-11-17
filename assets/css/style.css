@@ -1,5 +1,65 @@
-body {
+* {
     margin: 0px;
     padding: 0px;
-    background-color: darkred;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica;
+
+}
+
+header {
+    height: 100px;
+    background-color: #000000;
+}
+
+.header {
+    max-width: 1040px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+#logo_img {
+    width: 90px;
+    height: 90px;
+    background-color: #b28756;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    color: #FFF;
+}
+.menu ul {
+    display: flex;
+}
+.menu li, ul {
+    list-style: none;
+}
+
+.menu li a {
+    color: #FFFFFF;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border-bottom: 5px solid #000000;
+
+}
+
+.menu li a:hover {
+    border-bottom: 5px solid #b28756;
+
 }
