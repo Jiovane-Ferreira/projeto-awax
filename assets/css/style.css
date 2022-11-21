@@ -259,3 +259,46 @@ header {
     margin-top: 15px;
     font-size: 13px;
 }
+
+.section-projects {
+    display: flex;
+    justify-content: center;
+}
+
+.section-projects--filters {
+    border: 1px solid #CCCCCC;
+    background-color: #EEEEEE;
+    border-radius: 30px;;
+    display: inline-block;
+    padding: 0px, 20px;
+    width: 530px;
+    
+}
+
+.section-projects--filters ul,
+.section-projects--filters li {
+    list-style: none;
+    text-align: center;
+}
+
+.section-projects--filters li {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid #CCCCCC;
+    color: #555555;
+    border-bottom: 3px solid #EEEEEE;
+}
+
+.section-projects--filters li:hover,
+.section-projects--filters li.active {
+    border-bottom: 3px solid #b28756;
+}
+
+.section-projects--filters li:first-child {
+    border-left: 0;
+}
+
+
+
