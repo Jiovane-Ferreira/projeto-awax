@@ -7,6 +7,7 @@
 body {
     font-family: 'Montserrat', Arial, Helvetica;
     overflow-x: hidden;
+    
 }
 
 header {
@@ -74,7 +75,7 @@ header {
 }
 
 .banner .sliders {
-    width: 1000vh;
+    width: 100%;
     height: 100%;
 
 }
@@ -358,4 +359,74 @@ header {
     margin-top: 30px;
     padding: 10px 25px;
     border-radius: 18px;
+}
+
+.bg-team {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+.section-team {
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+
+.section-team-area {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.section-team .sliders {
+    width: 1000vw;
+    height: 100%;
+
+}
+
+.section-team .slide {
+    width: 280px;
+    min-height: 300px;
+    height: 100%;
+    display: inline-block;
+    background-color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.section-team .slidearea {
+    display: flex;
+    flex-direction: column;
+    color:#FFFFFF;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.section-team-area .slider-pointers {
+    margin: 30px;
+    height: 15px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.section-team-area .pointer {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #b28756;
+    border-radius: 8px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.section-team-area .pointer.active {
+    background-color: #b28756;
+}
+
+
+.section-team-area .pointer:hover {
+    background-color: #b28756;
 }
